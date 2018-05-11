@@ -31,7 +31,7 @@ def display(im, decodedObjects) :
 
 if __name__ == '__main__':
 
-	im = cv2.imread('zbar-test.jpg')
+	im = cv2.imread('Barcodescan.jpg')
 
 	decodedObjects = decode(im)
 	display(im,decodedObjects)
